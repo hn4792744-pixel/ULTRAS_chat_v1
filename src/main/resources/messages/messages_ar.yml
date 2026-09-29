@@ -1,0 +1,43 @@
+meta:
+  name: "العربية"
+  small-caps: false
+
+general:
+  no-permission: "<prefix> <error>! لا تملك الصلاحية"
+  player-only: "<prefix> <error>! هذا الأمر للاعبين فقط"
+  player-not-found: "<prefix> <error>! اللاعب غير موجود"
+  unknown-command: "<prefix> <error>! خيار غير معروف"
+  feature-disabled: "<prefix> <error>! هذه الميزة معطلة"
+  gui-disabled: "<prefix> <error>! القائمة معطلة"
+  stale-gui: "<prefix> <warning>! هذه القائمة قديمة"
+  reloaded: "<prefix> <success>✓ تمت إعادة تحميل الإعدادات"
+  reload-warnings: "<prefix> <warning>! تمت إعادة التحميل مع %count% تحذير"
+  warning-line: "<prefix> <warning>• <muted>%text%"
+  config-warnings-join: "<prefix> <warning>! يوجد %count% تحذير في الإعدادات - راجع السجلات"
+  spam: "<prefix> <warning>! تمهّل قليلًا"
+  usage: "<prefix> <info>→ <muted>%usage%"
+
+toggle:
+  on: "<prefix> <success>✓ تم تفعيل %setting%"
+  off: "<prefix> <error>× تم تعطيل %setting%"
+  unknown: "<prefix> <error>! إعداد غير معروف"
+  usage: "<prefix> <info>→ <muted>/chat toggle ‹الإعداد› [on|off]"
+  list: "<prefix> <info>• <muted>%list%"
+
+language:
+  changed: "<prefix> <success>✓ تم تغيير اللغة إلى %language%"
+  usage: "<prefix> <info>→ <muted>/chat language [en|ar]"
+
+reset:
+  done: "<prefix> <success>✓ تمت إعادة الإعدادات إلى الافتراضي"
+  done-other: "<prefix> <success>✓ تمت إعادة إعدادات %target% إلى الافتراضي"
+  confirm-text: "<prefix> <warning>! اكتب /chat reset confirm لإعادة الإعدادات"
+
+help:
+  header: "<prefix> <info>• الأوامر"
+  setting: "<sep>›</sep> <info>/chat setting</info> <muted>فتح الإعدادات"
+  toggle: "<sep>›</sep> <info>/chat toggle ‹الإعداد›</info> <muted>تبديل إعداد"
+  language: "<sep>›</sep> <info>/chat language</info> <muted>تغيير اللغة"
+  reset: "<sep>›</sep> <info>/chat reset</info> <muted>استعادة الافتراضي"
+  msg: "<sep>›</sep> <info>/msg ‹اللاعب› ‹الرسالة›</info> <muted>رسالة خاصة"
+  reload: "<sep>›</sep> <info>/chat reload</info> <muted>إعادة تحميل الإعدادات"

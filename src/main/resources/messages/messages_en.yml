@@ -1,0 +1,43 @@
+meta:
+  name: "English"
+  small-caps: true
+
+general:
+  no-permission: "<prefix> <error>! You do not have permission"
+  player-only: "<prefix> <error>! This command is for players"
+  player-not-found: "<prefix> <error>! Player not found"
+  unknown-command: "<prefix> <error>! Unknown option"
+  feature-disabled: "<prefix> <error>! This feature is disabled"
+  gui-disabled: "<prefix> <error>! The menu is disabled"
+  stale-gui: "<prefix> <warning>! This menu is outdated"
+  reloaded: "<prefix> <success>✓ Configuration reloaded"
+  reload-warnings: "<prefix> <warning>! Reloaded with %count% warning(s)"
+  warning-line: "<prefix> <warning>• <muted>%text%"
+  config-warnings-join: "<prefix> <warning>! %count% configuration warning(s) - check the logs"
+  spam: "<prefix> <warning>! Slow down"
+  usage: "<prefix> <info>→ <muted>%usage%"
+
+toggle:
+  on: "<prefix> <success>✓ %setting% has been enabled"
+  off: "<prefix> <error>× %setting% has been disabled"
+  unknown: "<prefix> <error>! Unknown setting"
+  usage: "<prefix> <info>→ <muted>/chat toggle ‹setting› [on|off]"
+  list: "<prefix> <info>• <muted>%list%"
+
+language:
+  changed: "<prefix> <success>✓ Language set to %language%"
+  usage: "<prefix> <info>→ <muted>/chat language [en|ar]"
+
+reset:
+  done: "<prefix> <success>✓ Settings have been reset"
+  done-other: "<prefix> <success>✓ Settings of %target% have been reset"
+  confirm-text: "<prefix> <warning>! Type /chat reset confirm to reset your settings"
+
+help:
+  header: "<prefix> <info>• Commands"
+  setting: "<sep>›</sep> <info>/chat setting</info> <muted>open your settings"
+  toggle: "<sep>›</sep> <info>/chat toggle ‹setting›</info> <muted>switch a setting"
+  language: "<sep>›</sep> <info>/chat language</info> <muted>switch language"
+  reset: "<sep>›</sep> <info>/chat reset</info> <muted>restore defaults"
+  msg: "<sep>›</sep> <info>/msg ‹player› ‹message›</info> <muted>private message"
+  reload: "<sep>›</sep> <info>/chat reload</info> <muted>reload configuration"
